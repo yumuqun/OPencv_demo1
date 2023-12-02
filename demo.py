@@ -87,7 +87,7 @@ while True:
     square_width,square_y+square_width),square_color,-1)
     frame = cv2.addWeighted(overlay,0.5,frame,0.5,0)
 
-    cv2.imshow("Virtual drag",frame)
+    cv2.imshow("Virtual window",frame)
 
     if cv2.waitKey(10) & 0xFF == 27:
         break
